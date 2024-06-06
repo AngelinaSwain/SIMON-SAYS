@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Says Game</title>
+</head>
+
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start the game</h2>
+    <div class="btn-container">
+        <div class="line-1">
+            <div class="btn pink" type="button" id="pink"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-2">
+            <div class="btn blue" type="button" id="blue"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+    <p>Highest Score: 0</p>
+    <div class="rules">
+        <h2>Rules</h2>
+        <ul>
+            <li>The game starts when the player presses any key on the keyboard.</li>
+            <li>At the beginning of each level, the game will flash a color. The sequence starts with a single color and
+                increases by one additional color each level.</li>
+            <li>After the color is displayed, the player must reproduce the sequence by clicking on the colors in the correct order.</li>
+            <li>If the player correctly matches the sequence, they advance to the next level, else the game ends.</li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
